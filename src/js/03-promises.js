@@ -31,6 +31,7 @@ function onClick(evt) {
       createPromise(counter, stepDelay);
 
       if (counter === amount) {
+        start.disabled = false;
         return;
       }
 
